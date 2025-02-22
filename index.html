@@ -7,13 +7,109 @@
     <style>
       div {width: 120px; margin: auto; display: flex; justify-content: space-between;}
     </style>
-    <title>Validasi2</title>
+    <title>I love you sayangg</title>
   </head>
   <body style="text-align: center;" >
     <audio autoplay style="display: none;">
        <source src="msc.mp3" type="audio/mpeg">
       </audio>
     <img src="" alt="" style="height: 280px" />
-    <h1>Error 404'</h1>
+<style>
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+a {
+    color: white;
+}
+button {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    left: 300px;
+    top: 212px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 85px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teks {
+    font-size: 48px;
+    color: #ff69b4;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    animation: animasi-teks 2s infinite;
+}
+
+@keyframes animasi-teks {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <button>
+            <a href="https://wa.me/+6282164503296?text= I love you too RIAN🫶✨" >Pencet to whatsapp👉👉👉</a>
+        </button>
+        <h1 id="teks">I LOVE YOU SAYANGG</h1>
+        <p>💖💖💖</p>
+    </div>
+        
+    <div class="contain">
+        <h1 id="teks">DINA ARIANTI</h1>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+<script>
+    
+const teks = document.getElementById('teks');
+
+setInterval(() => {
+    teks.style.color = getRandomColor();
+}, 1000);
+
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
+}
+
+</script>
   </body>
 </html>
